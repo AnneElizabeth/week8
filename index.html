@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creatures from the Wheel of Time</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <a href="./index.html">Home</a> |
-        <a href="./light.html">Of the Light</a> |
-        <a href="./dark.html">Of the Dark</a> |
-        <a href="./familiar.html">Familiar Creatures</a>
-    </nav> 
-    <h1>Creatures from the Wheel of Time</h1>
-    <img src="images/shadowspawn.webp"  />
-    <p>Robert Jordan's epic 14-book fantasy series, <em>The Wheel of Time</em>, contains enough non-human characters to keep a fantasy zoologist busy for centuries (wouldn't that be a cool occupation?!).</p>
-    <p>The non-human characters in the series can be organized into three general categories:</p>
-    <ul>
-        <li><a href="./light.html">Creatures of the Light</a></li>
-        <li><a href="./dark.html">Creatures of the Dark</a></li>
-        <li><a href="./familiar.html">Familiar Creatures</a></li>
-    </ul>
-
-    <h2>What's Your Favorite WOT Creature?</h3>
-    <p>Let us know!</p>
-    <form>
-        <label>First name:</label>
-        <input type="text"><br><br>
-        <label>Last name:</label>
-        <input type="text"><br><br>
-        <label>Email:</label>
-        <input type="text"><br><br >
-        <label>Favorite WOT Creature:</label>
-        <input type="text"><br><br>
-        <input type="submit" value="Submit">
-    </form>
-
-    <h4>Resources</h4>
-    <ul>
-        <li><cite>https://wot.fandom.com/wiki/A_beginning</cite></li>
-        <li><cite>https://wot-companion.tumblr.com/post/153110195711/animals-in-randland</cite></li>
-    </ul>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Wheel of Time Creature Wiki</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- nav -->
+        <header>
+            <h1 id="nav-title">The Wheel of Time Creature Wiki</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./light.html">Light</a></li>
+                    <li><a href="./dark.html">Dark</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- middle content-->
+        <div class="wrapper">
+            <article class="main">
+                <p>Robert Jordan's epic 14-book fantasy series, <em>The Wheel of Time</em>, contains enough non-human characters to keep a fantasy zoologist busy for centuries.</p>
+                <p>The non-human characters in the series can be organized into two general categories:</p>
+                <ul>
+                    <li>Shadowspawn (Creatures of the Dark One)</li>
+                    <li>Creatures of the Light (Creatures of the One Power)</li>
+                </ul>  
+            </article>
+            <!-- left col -->
+            <aside class="aside aside-1">
+                <img src="images/shadowspawn.webp" />
+                <p>Shadowspawn</p>
+            </aside>
+            <!-- right col -->
+            <aside class="aside aside-2">
+                <div class="item">
+                </div>
+                <!-- form -->
+                <div class="item">
+                    <h3>What's Your Favorite WOT Creature?</h3>
+                    <form action="">
+                        <label>Name</label><br>
+                        <input type="text"><br><br>
+                        <label>Email</label><br>
+                        <input type="text"><br><br>
+                        <label>Creature</label><br>
+                        <input type="text"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </aside>
+            <!-- footer -->
+            <footer class="footer">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="https://wot.fandom.com/wiki/A_beginning">Fandom.com Wheel of Time Wiki</a></li>
+                    <li><a href="https://wot-companion.tumblr.com/post/153110195711/animals-in-randland">The Wheel of Time Companion</a></li>
+                </p>
+            </footer>
+        </div>
+    </body>
 </html>

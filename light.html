@@ -1,41 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creatures of the Wheel of Time | Of the Light</title>
-</head>
-<body>
-    <nav>
-        <a href="./index.html">Home</a> |
-        <a href="./light.html">Of the Light</a> |
-        <a href="./dark.html">Of the Dark</a> |
-        <a href="./familiar.html">Familiar Creatures</a>
-    </nav> 
-    <h1>Creatures of the Light</h1>
-    <p>Both major and minor plots of <em>The Wheel of Time</em> are driven by the age-old fantasy genre theme of the battle between good and evil. The appearance, purpose and behavior of the creatures that inhabit this rigid dichotomy make their affiliations quite clear.</p>
-    <p>The various creatures that are of the Light are generally representative of wisdom, loyalty and nature.</p>
-    <table width="50%">
-        <tr>
-            <th align="left">Name</th>
-            <th align="left">Appearance</th>
-            <th align="left">Description</th>
-        </tr>
-        <tr>
-            <td><Ogier</td>
-            <td><img src="images/ogier.jpeg" width="150"/></td>
-            <td>
-                <p>The Ogier are known for their great size, their long lives, and their love for verbose conversation. They are known as great scholars and stonemasons, and have a great respect for nature and peace in their daily lives.</p>
-            </td>
-        </tr>
-        <tr>
-            <td>Nym</td>
-            <td><img src="images/nym.jpeg" width="150"></td>
-            <td>
-                <p>A construct of the Aes Sedai from the Age of Legends who had the ability to use the One Power for the benefit of plants and growing things.</p>
-            </td>
-        </tr>
-    </table>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Wheel of Time Creature Wiki</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- nav -->
+        <header>
+            <h1 id="nav-title">The Wheel of Time Creature Wiki</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./light.html">Light</a></li>
+                    <li><a href="./dark.html">Dark</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- middle content-->
+        <div class="wrapper">
+            <article class="main">
+                <h1>Creatures of the Light</h1>
+                <p>Both major and minor plots of <em>The Wheel of Time</em> are driven by the age-old fantasy genre theme of the battle between good and evil. The appearance, purpose and behavior of the creatures that inhabit this rigid dichotomy make their affiliations quite clear.</p>
+                <p>The various creatures that are of the Light are generally representative of wisdom, loyalty and nature.</p>
+                <table>
+                    <tr>
+                        <td class="first">
+                            <img src="images/ogier.jpeg" width="100"/>
+                        </td>
+                        <td class="next">
+                            <p>The <strong>Ogier</strong> are known for their great size, their long lives, and their love for verbose conversation. They are known as great scholars and stonemasons, and have a great respect for nature and peace in their daily lives.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first">
+                            <img src="images/nym.jpeg" width="100">
+                         </td>   
+                         <td class="next">
+                            <p>The <strong>Nym</strong> are a construct of the Aes Sedai from the Age of Legends. They have the ability to use the One Power for the benefit of plants and growing things.</p>
+                         </td>
+                    </tr>
+                </table>
+            </article>
+            <!-- left col -->
+            <aside class="aside aside-1">
+                <img src="images/chora.jpeg" />
+                <p>Chora Tree</p>
+            </aside>
+            <!-- right col -->
+            <aside class="aside aside-2">
+                <div class="item">
+                </div>
+                <!-- form -->
+                <div class="item">
+                    <h3>What's Your Favorite WOT Creature?</h3>
+                    <form action="">
+                        <label>Name</label><br>
+                        <input type="text"><br><br>
+                        <label>Email</label><br>
+                        <input type="text"><br><br>
+                        <label>Creature</label><br>
+                        <input type="text"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </aside>
+            <!-- footer -->
+            <footer class="footer">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="https://wot.fandom.com/wiki/A_beginning">Fandom.com Wheel of Time Wiki</a></li>
+                    <li><a href="https://wot-companion.tumblr.com/post/153110195711/animals-in-randland">The Wheel of Time Companion</a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
 </html>
